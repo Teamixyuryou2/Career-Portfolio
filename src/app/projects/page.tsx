@@ -5,20 +5,34 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
+          New Directory&nbsp;
           <code className="font-mono font-bold">src/app/page.tsx</code>
         </p>
+        <div className ="text-xl" >
+            Welcome to my profile!
+        </div>
 
         <div className ="text-xl" >
             Projects:
             <a
-                href="http://localhost:3000/projects"
+                href="https://github.com/Teamixyuryou2?tab=repositories"
+                className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Github
+            </a>
+            <a
+                href="http://localhost:3000/"
                 className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
                 rel="noopener noreferrer"
             >
-                Project Portfolio
+                Go back
             </a>
         </div>
+
+        
+
 
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
           <a
@@ -49,76 +63,6 @@ export default function Home() {
           height={37}
           priority
         />
-      </div>
-
-      <div className="bg-gray-500 w-screen h-[500px] font-lg text-slate-950 flex flex-row justify-center"> 
-        <div className =" h-full min-w-[600px] sm:w-full lg:w-1/3 flex-row flex justify-center">
-          <div className ="h-full min-w-1/3 w-2/3 flex-col flex justify-between">
-            <div className ="h-[350px] w-full flex flex-row justify-center">
-              <div className ="rounded-full bg-gray-700 h-[350px] w-[350px] flex flex-col justify-center">
-                {/*Input image here*/}
-              </div>
-            </div>
-            <div className ="rounded-lg bg-gray-700 h-1/4 w-full flex flex-col justify-center">
-              {/*Input bio here*/}
-            </div>
-          </div>
-        </div>
-        {/*block means visible hidden means disappear*/}
-        <div className =" bg-gray-600 h-full hidden lg:block lg:w-2/3 flex-row flex justify-center"> Inner2 </div>
-      </div>
-
-      {/* flex-row and flex-col after flex makes it go certain directions, justify between spaces the contents stored*/}
-      <div className="bg-gray-50 w-screen h-[7000px] lg:h-[3000px] font-lg text-slate-950">
-        <div className ="bg-gray-700 h-1/4 w-full lg:flex-row lg:flex lg:justify-center">
-
-          <div className ="bg-gray-600 h-1/3 lg:h-full lg:w-1/3 flex-col lg:flex-col flex justify-center">
-            <div className ="bg-gray-300 h-full w-full lg:flex-row flex justify-center"> Inner1 </div>
-            <div className ="bg-gray-300 h-full w-full lg:flex-row flex justify-center"> Inner1 </div>
-            <div className ="bg-gray-300 h-full w-full lg:flex-row flex justify-center"> Inner1 </div>
-          </div>
-
-          <div className ="bg-gray-600 h-1/3 lg:h-full lg:w-1/3 flex-col flex justify-center"> 
-            <div className ="bg-gray-300 h-full w-full lg:flex-row flex justify-center"> Inner2 </div>
-            <div className ="bg-gray-300 h-full w-full lg:flex-row flex justify-center"> Inner2 </div>
-            <div className ="bg-gray-300 h-full w-full lg:flex-row flex justify-center"> Inner2 </div>
-          </div>
-
-          <div className ="bg-gray-600 h-1/3 lg:h-full lg:w-1/3 flex-col flex justify-center">
-            <div className ="bg-gray-300 h-full w-full lg:flex-row flex justify-center"> Inner3 </div>
-            <div className ="bg-gray-300 h-full w-full lg:flex-row flex justify-center"> Inner3 </div>
-            <div className ="bg-gray-300 h-full w-full lg:flex-row flex justify-center"> Inner3 </div>
-          </div>
-
-        </div>
-
-        <div className ="bg-gray-700 h-1/4 w-full lg:flex-row lg:flex lg:justify-center">
-          <div className ="bg-gray-600 h-1/3 w-full lg:h-full lg:w-1/3 flex-row flex justify-center">Long Inner</div>
-
-          <div className ="bg-gray-600 h-1/3 lg:h-full lg:w-1/3 flex-col flex justify-center"> 
-            <div className ="bg-gray-400 h-full w-full lg:flex-row flex justify-center"> Inner2 </div>
-            <div className ="bg-gray-400 h-full w-full lg:flex-row flex justify-center"> Inner2 </div>
-            <div className ="bg-gray-400 h-full w-full lg:flex-row flex justify-center"> Inner2 </div>
-          </div>
-
-          <div className ="bg-gray-600 h-1/3 lg:h-full lg:w-1/3 flex-col flex justify-center">
-            <div className ="bg-gray-400 h-full w-full lg:flex-row flex justify-center"> Inner3 </div>
-            <div className ="bg-gray-400 h-full w-full lg:flex-row flex justify-center"> Inner3 </div>
-            <div className ="bg-gray-400 h-full w-full lg:flex-row flex justify-center"> Inner3 </div>
-          </div>
-        </div>
-
-        <div className ="bg-gray-700 h-1/4 w-full lg:flex-row lg:flex lg:justify-between">
-          <div className ="bg-gray-500 h-1/3 lg:h-full lg:w-1/3 lg:flex-row flex justify-center"> Box 1 </div>
-          <div className ="bg-gray-500 h-1/3 lg:h-full lg:w-1/3 lg:flex-row flex justify-center"> Box 2 </div>
-          <div className ="bg-gray-500 h-1/3 lg:h-full lg:w-1/3 lg:flex-row flex justify-center"> Box 3 </div>
-        </div>
-
-        <div className ="bg-gray-700 h-1/4 w-full lg:flex-row lg:flex lg:justify-between">
-          <div className ="bg-gray-300 h-1/3 lg:h-full lg:w-1/3 lg:flex-row flex justify-center"> Box 1 </div>
-          <div className ="bg-gray-300 h-1/3 lg:h-full lg:w-1/3 lg:flex-row flex justify-center"> Box 2 </div>
-          <div className ="bg-gray-300 h-1/3 lg:h-full lg:w-1/3 lg:flex-row flex justify-center"> Box 3 </div>
-        </div>
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
