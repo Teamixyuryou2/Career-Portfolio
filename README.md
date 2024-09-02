@@ -37,11 +37,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 # Persnal Website List
-
-x Parallax background
-x Introduction header
-x Projects
-x Project links
-x Experience
-x Social links
-
+<ul>
+  x Parallax background
+  x Introduction header
+  x Projects
+  x Project links
+  x Experience
+  x Social links
+</ul>
