@@ -45,3 +45,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -  x Experience
 -  x Social links
 
+
+- Try to Consider Other things as well
