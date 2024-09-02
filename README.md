@@ -44,6 +44,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -  x Project links
 -  x Experience
 -  x Social links
+-  x Create Secondary Portfolio for UX/UI
 
 
 - Try to Consider Other things as well
