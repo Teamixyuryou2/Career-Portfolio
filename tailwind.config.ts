@@ -14,6 +14,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "background-photo": "url('/public/img/Ng_Animation_Test.png')",
       },
+      fontFamily:{
+        vaporpixel: ['VaporPixelFont','sans-serif'],
+      },
     },
   },
   plugins: [],
