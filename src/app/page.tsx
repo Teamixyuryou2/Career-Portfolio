@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Navbar from "./components/navbar"
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full w-[100%] h-[100px] items-center justify-between font-vaporpixel text-sm lg:flex">
+      {/* <div className="z-10 w-full w-[100%] h-[100px] items-center justify-between font-vaporpixel text-sm lg:flex">
 
         <div className = "flex flex-row justify-start w-1/2">
           <div className ="text-xl" >
@@ -82,9 +83,9 @@ export default function Home() {
         </div>
         </div>
 
-      </div>
+      </div> */}
 
-
+      <Navbar />
 
       <div className="bg-gray-500 w-screen h-[500px] font-lg text-slate-950 flex flex-row justify-center"> 
         <div className =" h-full min-w-[600px] sm:w-full lg:w-1/3 flex-row flex justify-center">
